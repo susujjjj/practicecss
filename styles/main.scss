@@ -1,9 +1,5 @@
-@import './base/fonts'; //_fonts.scss 라고 설정할수도 있지만 sass는 개떡같이 얘기해도 찰떡같이 알아들을수있음
+@import './constants/colors';
 
-p {
-  color: #0081ff;
-}
-
-* {
-  font-family: 'Noto Sans KR', sans-serif;
-}
+@import './base/fonts';
+@import './base/normalize';
+@import './base/reset';
